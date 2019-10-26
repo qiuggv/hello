@@ -1,0 +1,24 @@
+server:
+    port: 8778
+
+debug: true
+
+spring:
+    cloud:
+        zookeeper:
+            connectString: 127.0.0.1:2181
+            enabled: false
+    sleuth:
+        enabled: false
+
+swagger:
+    basePackage: com.myapp.hello.controller
+    title: fdad02619efe416ab0acc1b5112183c8-myapp-hello RESTful APIs
+    description: fdad02619efe416ab0acc1b5112183c8-myapp-hello RESTful API
+    version: 1.0.0-SNAPSHOT
+    openApi:
+        group: OpenApi
+        basePackage: com.myapp.hello.controller
+        title: afdad02619efe416ab0acc1b5112183c8-myapp-hello Open APIs
+        description: fdad02619efe416ab0acc1b5112183c8-myapp-hello Open API
+        version: 1.0.0-SNAPSHOT
